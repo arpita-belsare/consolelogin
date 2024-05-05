@@ -1,0 +1,167 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+       }
+    
+    .div{
+      width: 28%;
+      height: 90%;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      /* border: 1px solid red; */
+      flex-wrap: wrap;
+    
+    }
+    .wrapper{
+      width: 100vw;
+      height: 100vh;
+      /* border: 1px solid rgb(76, 0, 255); */
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+    .innerdiv{
+      width: 90%;
+      height: 70%;
+      border: 1px solid rgb(214, 201, 201);
+      display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding: 1.5% 0%;
+    }
+    .innerdiv h2{
+      font-family: "Norican", cursive;
+      font-weight: 500;
+      font-size:2.7em;
+      margin: 0.2% 10%;;
+    }
+    .wrapforinputfield{
+      width: 100%;
+      display: flex;
+      justify-content: center;
+      flex-wrap: wrap;
+    }
+    .wrapforinputfield input{
+      width: 80%;
+      height:2.5rem;
+      padding: 1% 2%;
+      border: 1px solid gainsboro;
+      margin: 2% 0.1%;
+    }
+    label{
+      font-size: 1.2em;
+      font-family: "Source Sans 3", sans-serif;
+      font-weight: 400;
+      text-align: left;
+    
+    }
+    .butlogin{
+      background-color: rgb(34, 129, 231);
+      border-radius: 9px;
+      width: 80%;
+      height: 2em;
+      outline: none;
+      border: none;
+      color: white;
+      margin: 1em 0.1%;
+    }
+    .butlogin:hover{
+      background-color:rgba(34, 129, 231,0.9);
+    opacity: 0.9;
+    }
+    .line{
+      
+      width: 75%;
+      border: 1px solid grey;
+      height: 1px;
+    }
+    h4{
+      color: rgb(73, 62, 146);
+    font-size: 0.9em;
+     margin:  1em 0.1em;
+     width: 90%;
+     text-align: center;
+    }
+    #fb{
+      color: rgb(73, 62, 146);
+    }
+    h6{
+      /* margin: 0.5em 0%; */
+      font-weight: 100;
+      font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    }
+    .secdiv{
+      width: 90%;
+      height: 15%;
+      border: 1px solid rgb(214, 201, 201);
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+    .sign{
+    color: rgb(47, 129, 235);
+    font-size: 1.3em;
+    font-weight: 800;
+    }
+    .get{
+      width: 90%;
+      height: 13%;
+      /* border: 1px solid purple; */
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      align-items: center;
+    }
+    .last{
+      width: 90%;
+      text-align: center;
+    }
+    #playstore,#microsoft
+    {
+      width: 34%;
+      height: 2.5em;
+      margin: 0.2em 0.5em;
+      /* border: 1px solid goldenrod; */
+    }
+    
+    
+    
+    .fot {
+      width: 100%;
+      height: 4rem;
+      margin-top: 40px;
+      text-align: center;
+    }
+    
+    .fot a {
+      display: inline-block;
+      margin: 5px 10px;
+      color: #1c1c1c;
+      text-decoration: none;
+      font-size: 12px;
+    }
+    
+    .fot p {
+      margin-top: 10px;
+      font-size: 14px;
+      color: #afabab;
+    }
+    
+    @media only screen and (max-width: 390px) {
+      .div {
+        width: 90%; 
+      }
+    }
+    
+    @media only screen and (max-width: 844px) {
+      .div {
+        width: 50%; 
+      }
+    }
+    
+    
+    
+    
+    
